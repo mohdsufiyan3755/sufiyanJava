@@ -1,6 +1,6 @@
 package basicPrograms;
 
-public class incdcr {
+public class incDcrOperator {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

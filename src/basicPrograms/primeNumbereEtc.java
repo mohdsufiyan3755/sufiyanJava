@@ -7,12 +7,12 @@ public class primeNumbereEtc {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-	//	primeno();	
+		primeno();	
 	//	pattern();
 	//	factorial();
 	//	even();
 	//	fibonacci();
-	  armstrong();	
+	  //armstrong();	
 		}
 
 	private static void armstrong() {
@@ -51,7 +51,7 @@ public class primeNumbereEtc {
 		if (number==1 || number==0) {
 			System.out.println("Invalid number.Prime numbers starts with 2");
 		}
-		for (int i=1; i<number; i++) { 
+		for (int i=2; i<number; i++) { 
 			if(number%i==0) {
 				count++;
 			}	

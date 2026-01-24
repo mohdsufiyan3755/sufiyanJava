@@ -8,7 +8,7 @@ public class palindromeNumber {
 		// TODO Auto-generated method stub
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter the number to check palindrome:");
-		int num= scan.nextInt();
+		int num = scan.nextInt();
 		int rev = 0;
 		int div = num;
 		while(div>0) {

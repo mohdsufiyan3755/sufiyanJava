@@ -11,20 +11,19 @@ public class palindromeNumber {
 		int num = scan.nextInt();
 		int rev = 0;
 		int div = num;
-		while(div>0) {
-		int	rem = num%10;
-		rev = rev*10 + rem;
-		div = num/10;				
+		while (div > 0) {
+			int rem = num % 10;
+			rev = rev * 10 + rem;
+			div = num / 10;
 		}
-		
+
 		System.out.println("Reverse of number is " + rev);
 
-		if (num==rev) {
+		if (num == rev) {
 			System.out.println("Number is palindrome");
-		}
-		else {
+		} else {
 			System.out.println("Number is not a palindrome");
-		}				
+		}
 	}
 
 }

@@ -57,7 +57,7 @@ public class MergeTwoArrays {
 	            c[a1 + i] = arr2[i];
 	        }
 
-	        System.out.println("" + Arrays.toString(c));
+	        System.out.println("Merged Array is : " + Arrays.toString(c));
 	    }
 		
 

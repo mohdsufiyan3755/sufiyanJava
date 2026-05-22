@@ -11,7 +11,7 @@ public class factorial {
 		System.out.println("Enter the number for factorial:");
 		int number = scan.nextInt();
 		int fact = 1;
-		for (int i=1; i<=number; i++) {
+		for (int i=2; i<=number; i++) {
 			fact = fact*i;
 		}
 		System.out.println("factorial of "+number+" is "+fact);

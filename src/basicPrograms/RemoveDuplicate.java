@@ -29,9 +29,11 @@ public class RemoveDuplicate {
 		for(char x: chararr) {
 			hs.add(x);			
 		}
-		for(char z: hs) {
-		System.out.println(z);
+		String result = hs.toString();
+        System.out.println(result);
+//		for(char z: hs) {
+//		System.out.println(z);
 		}
 	}
 
-}
+

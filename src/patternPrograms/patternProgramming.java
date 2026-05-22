@@ -10,10 +10,10 @@ public class patternProgramming {
 		//pattern3();
 		//pattern4();
 		//pattern5();
-		//pattern6();
+		pattern6();
 		//pattern7();
 		//pattern8();
-		pattern9();
+		//pattern9();
 	
 	}
 		
